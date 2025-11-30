@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Composants dynamiques
-    const composants = [
-        { title: "Mélatonine", desc: "3 fois plus concentrée que les compléments", icon: "Moon" },
-        { title: "Tryptophane", desc: "Précurseur de la sérotonine", icon: "DNA" },
-        { title: "Prostaglandines", desc: "Relaxation musculaire", icon: "Muscle" },
-        { title: "Cytokines", desc: "Réduction du stress", icon: "Calm" }
-    ];
+const composants = [
+    "Mélatonine – 3 fois plus concentrée que les compléments classiques",
+    "Tryptophane – précurseur naturel de la sérotonine",
+    "Prostaglandines – relaxation musculaire profonde",
+    "Cytokines anti-inflammatoires – réduction du cortisol de 37 %"
+];
 
     const grid = document.getElementById('composantsGrid');
     composants.forEach((c, i) => {
